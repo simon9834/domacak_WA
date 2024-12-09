@@ -1,0 +1,27 @@
+.header{
+    background-color: steelblue;
+    grid-area: header;
+    padding: 5px;
+}
+.aside{
+    color: rgb(37, 141, 110);
+    grid-area: aside;
+    padding: 5px;
+}
+.main{
+    background-color: rgb(65, 82, 95);
+    grid-area: main;
+    padding: 5px;
+}
+#container{
+    max-width: 95%;
+    margin: 3vh auto;
+    display: grid;
+    grid-template-rows: 1fr minmax(13vh) 2fr;
+    grid-template-columns: 1fr; /*mobilni zobrazeni*/
+    gap: 30px;
+    grid-template-areas: 
+    "header"
+    "main aside"
+    "footer";
+}
