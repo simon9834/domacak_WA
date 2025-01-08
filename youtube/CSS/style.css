@@ -1,27 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", serif;
+}
+
+h1{
+    font-size:1.5rm;
+}
+
+h4{
+    font-size: .9rm;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 20px;
+}
+/*toto je i*/
+y{
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+p,a{
+    font-size: .9rem;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 12px 0;
+}
+
+/*headero*/
 .header{
-    background-color: steelblue;
-    grid-area: header;
-    padding: 5px;
-}
-.aside{
-    color: rgb(37, 141, 110);
-    grid-area: aside;
-    padding: 5px;
-}
-.main{
-    background-color: rgb(65, 82, 95);
-    grid-area: main;
-    padding: 5px;
-}
-#container{
-    max-width: 95%;
-    margin: 3vh auto;
-    display: grid;
-    grid-template-rows: 1fr minmax(13vh) 2fr;
-    grid-template-columns: 1fr; /*mobilni zobrazeni*/
-    gap: 30px;
-    grid-template-areas: 
-    "header"
-    "main aside"
-    "footer";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202020;
 }
