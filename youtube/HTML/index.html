@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="youtube logo" href="../Img/yimg.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="youtube logo" href="../Img/ylogo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
@@ -14,11 +14,18 @@
             <y class="ri-menu-line"></y>
             <div class="logo">
                 <div class="logo-img">
-                    <img src="../Img/yimg.jpg" alt="logo img">
+                    <img src="../Img/ylogo.jpg" alt="logo img">
                 </div>
+                <h1 id="logo-txt">YouTube</h1>
             </div>
         </div>
-        <div class="search-container"></div>
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <button class="search"><y class="ri-search-eye-line"></y></button>
+            <button class="mic"><y class="ri-mic-ai-fill"></y></button>
+        </div>
         <div class="profile-container"></div>
     </div>
     <div class="body-container"></div>
